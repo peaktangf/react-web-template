@@ -1,0 +1,33 @@
+@import '../../styles//common.less';
+
+.components-slide {
+    position: relative;
+    text-align: center;
+    background-color: #ffffff;
+    overflow: hidden;
+
+    .slide-item {
+        display: flex !important;
+        align-items: center;
+        justify-content: center;
+        overflow: hidden;
+    }
+
+    .dots {
+        position: absolute;
+        top: 0;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px;
+
+        .ant-btn-circle {
+            background-color: #CCCCCC;
+
+            .anticon {
+                color: #ffffff;
+            }
+        }
+    }
+}
