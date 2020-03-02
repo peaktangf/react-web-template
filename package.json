@@ -1,5 +1,5 @@
 {
-  "name": "bode_h5",
+  "name": "{{projectName}}",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
